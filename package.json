@@ -12,7 +12,7 @@
   "description": "http-hotreload is based resv",
   "repository": {
     "type": "git",
-    "url": "git@github.com/hktysk/resv.git"
+    "url": "git@github.com/hktysk/http-hotreload.git"
   },
   "keywords": [
     "browser",

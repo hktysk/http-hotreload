@@ -24,7 +24,7 @@ export function watch(watchDir: string | undefined, target: string): string[] {
 
 export function exts(extensinos: string | undefined): string[] {
   let exts: string[] = extensinos ? extensinos.split(/(\||,)/) : []
-  const defaultExts: string[] = ['html', 'twig', 'css', 'sass', 'scss', 'js', 'jsx', 'tsx', 'vue', 'php', 'rb', 'go', 'py']
+  const defaultExts: string[] = ['html', 'twig', 'css', 'sass', 'scss', 'js', 'jsx', 'tsx', 'vue', 'rb', 'go', 'py']
 
   exts = Array.from(new Set([
     ...exts,

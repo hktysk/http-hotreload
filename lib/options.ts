@@ -12,10 +12,10 @@ export function watch(watchDir: string | undefined, target: string): string[] {
   );
 
   if (isURL) {
-    watchPath = __dirname;
+    watchPath = process.cwd();
   } else {
     if (watchPath.slice(0, 1) !== '/') {
-      watchPath = path.join(__dirname, watchPath)
+      watchPath = path.join(process.cwd(), watchPath)
     }
   }
 
